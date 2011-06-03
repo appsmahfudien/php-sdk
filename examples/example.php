@@ -19,8 +19,8 @@ require '../src/facebook.php';
 
 // Create our Application instance (replace this with your appId and secret).
 $facebook = new Facebook(array(
-  'appId'  => '117743971608120',
-  'secret' => '943716006e74d9b9283d4d5d8ab93204',
+  'appId'  => '229245313757637',
+  'secret' => '32b8504e11367c51dd18975841e576a8',
 ));
 
 // Get User ID
@@ -56,7 +56,7 @@ $naitik = $facebook->api('/naitik');
 <!doctype html>
 <html xmlns:fb="http://www.facebook.com/2008/fbml">
   <head>
-    <title>php-sdk</title>
+    <title>salkomsel</title>
     <style>
       body {
         font-family: 'Lucida Grande', Verdana, Arial, sans-serif;
@@ -71,7 +71,7 @@ $naitik = $facebook->api('/naitik');
     </style>
   </head>
   <body>
-    <h1>php-sdk</h1>
+    <h1>salkomsel</h1>
 
     <?php if ($user): ?>
       <a href="<?php echo $logoutUrl; ?>">Logout</a>
@@ -95,8 +95,8 @@ $naitik = $facebook->api('/naitik');
       <strong><em>You are not Connected.</em></strong>
     <?php endif ?>
 
-    <h3>Public profile of Naitik</h3>
-    <img src="https://graph.facebook.com/naitik/picture">
-    <?php echo $naitik['name']; ?>
+    <h3>Public profile of Mahfudien Kebumen</h3>
+    <img src="https://graph.facebook.com/MAHFUDIEN.KEBUMEN/picture">
+    <?php echo $Mahfudien Kebumen['name']; ?>
   </body>
 </html>
